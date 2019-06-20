@@ -4,7 +4,8 @@
   "version": "0.1.0",
   "author": "Jaid <jaid.jsx@gmail.com> (https://github.com/Jaid)",
   "dependencies": {
-    "@babel/runtime": "^7.4.5"
+    "@babel/runtime": "^7.4.5",
+    "lodash": "^4.17.11"
   },
   "devDependencies": {
     "acorn": "^6.1.1",
