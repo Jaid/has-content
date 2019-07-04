@@ -2,19 +2,7 @@
 
 import {isNil, isString, isNumber, isFunction, isObject, isBoolean} from "lodash"
 
-/**
- * Returns `true` if the passed value is truthy or has any kind of content
- * @example
- * import hasContent from "has-content"
- * const result = hasContent(" ")
- * result === false
- * @example
- * import hasContent from "has-content"
- * const result = hasContent("a")
- * result === true
- * @returns {boolean} `true` if `value` is truthy or has content
- */
-export default value => {
+const hasContent = value => {
   if (value |> isNil) {
     return false
   }
@@ -41,3 +29,37 @@ export default value => {
   }
   return false
 }
+
+/**
+ * Returns `false` if the given value is truthy or has any kind of content
+ * @example
+ * import {isEmpty} from "has-content"
+ * const result = hasContent(" ")
+ * result === true
+ * @example
+ * import {isEmpty} from "has-content"
+ * const result = hasContent("a")
+ * result === false
+ * @function isEmpty
+ * @param {*} value
+ * @returns {boolean} `false` if `value` is truthy or has content, `true` otherwise
+ */
+export const isEmpty = value => {
+  return !hasContent(value)
+}
+
+/**
+ * Returns `true` if the given value is truthy or has any kind of content
+ * @example
+ * import hasContent from "has-content"
+ * const result = hasContent(" ")
+ * result === false
+ * @example
+ * import hasContent from "has-content"
+ * const result = hasContent("a")
+ * result === true
+ * @function default
+ * @param {*} value
+ * @returns {boolean} `true` if `value` is truthy or has content
+ */
+export default hasContent
