@@ -1,7 +1,11 @@
 import path from "path"
 
 const indexModule = (process.env.MAIN ? path.resolve(process.env.MAIN) : path.join(__dirname, "..", "src")) |> require
-const {default: hasContent} = indexModule
+
+/**
+ * @type { import("../src") }
+ */
+const {default: hasContent, isEmpty} = indexModule
 
 it("should run", () => {
   expect(null |> hasContent).toBe(false)
@@ -24,4 +28,9 @@ it("should run", () => {
   expect([] |> hasContent).toBe(false)
   expect([,] |> hasContent).toBe(true) // eslint-disable-line
   expect([1] |> hasContent).toBe(true)
+})
+
+it("should run isEmpty", () => {
+  expect(null |> isEmpty).toBe(true)
+  expect("abc" |> isEmpty).toBe(false)
 })
