@@ -3,6 +3,15 @@
 
 Returns true if the given value has meaningful content.
 
+## Installation
+<a href='https://npmjs.com/package/has-content'><img alt='npm logo' src='https://raw.githubusercontent.com/npm/logos/master/npm%20logo/npm-logo-red.png' height=16/></a>
+```bash
+npm install --save has-content@^
+```
+<a href='https://yarnpkg.com/package/has-content'><img alt='Yarn logo' src='https://raw.githubusercontent.com/yarnpkg/assets/master/yarn-kitten-full.png' height=24/></a>
+```bash
+yarn add has-content@^
+```
 
 
 ## Try it out
