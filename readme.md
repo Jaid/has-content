@@ -4,17 +4,18 @@
 Returns true if the given value has meaningful content.
 
 ## Installation
-<a href='https://npmjs.com/package/has-content'><img alt='npm logo' src='https://raw.githubusercontent.com/npm/logos/master/npm%20logo/npm-logo-red.png' height=16/></a>
+<a href='https://npmjs.com/package/has-content'><img alt='npm logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/npm.png'/></a>
 ```bash
-npm install --save has-content@^
+npm install --save has-content@^1.1.0
 ```
-<a href='https://yarnpkg.com/package/has-content'><img alt='Yarn logo' src='https://raw.githubusercontent.com/yarnpkg/assets/master/yarn-kitten-full.png' height=24/></a>
+<a href='https://yarnpkg.com/package/has-content'><img alt='Yarn logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/yarn.png'/></a>
 ```bash
-yarn add has-content@^
+yarn add has-content@^1.1.0
 ```
 
 
 ## Try it out
+<img alt='Chromium logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/browser.png'/>
 Open a browser's JavaScript console and execute:
 
 ```javascript
@@ -24,10 +25,10 @@ scriptElement.setAttribute("src","https://unpkg.com/has-content@1.1.0");
 document.querySelector("head").appendChild(scriptElement);
 ```
 
-The module is now loaded in a variable.
+This module is now loaded in a variable that can be accessed in any scope.
 
 ```javascript
-typeof has-content.default
+typeof hasContent.default
 ```
 
 ## Documentation
