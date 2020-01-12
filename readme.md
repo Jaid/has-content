@@ -36,24 +36,6 @@ yarn add has-content@^1.1.0
 ```
 
 
-## Try it out
-
-
-
-Open a browser's JavaScript console and execute:
-
-```javascript
-const scriptElement = document.createElement("script");
-scriptElement.setAttribute("type", "text/javascript");
-scriptElement.setAttribute("src", "https://cdn.jsdelivr.net/npm/has-content@1.1.0/index.js");
-document.querySelector("head").appendChild(scriptElement);
-```
-
-has-content is now stored in the global variable `hasContent`. The following console expression should return something other than `"undefined"`.
-
-```javascript
-typeof hasContent.default
-```
 
 
 
