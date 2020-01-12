@@ -1,83 +1,82 @@
 # has-content
 
 
-Returns true if the given value has meaningful content.
+<a href="https://raw.githubusercontent.com/Jaid/has-content/master/license.txt"><img src="https://img.shields.io/github/license/Jaid/has-content?style=flat-square" alt="License"/></a>  
+<a href="https://actions-badge.atrox.dev/Jaid/has-content/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2FJaid%2Fhas-content%2Fbadge" alt="Build status"/></a> <a href="https://github.com/Jaid/has-content/commits"><img src="https://img.shields.io/github/commits-since/Jaid/has-content/v1.1.0?style=flat-square&logo=github" alt="Commits since v1.1.0"/></a> <a href="https://github.com/Jaid/has-content/commits"><img src="https://img.shields.io/github/last-commit/Jaid/has-content?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/Jaid/has-content/issues"><img src="https://img.shields.io/github/issues/Jaid/has-content?style=flat-square&logo=github" alt="Issues"/></a>  
+<a href="https://npmjs.com/package/has-content"><img src="https://img.shields.io/npm/v/has-content?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/Jaid/has-content/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/has-content?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/has-content"><img src="https://img.shields.io/npm/dm/has-content?style=flat-square&logo=npm" alt="Downloads"/></a>
+
+**Returns true if the given value has meaningful content.**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Installation
-<a href='https://npmjs.com/package/has-content'><img alt='npm logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/npm.png'/></a>
+<a href="https://npmjs.com/package/has-content"><img src="https://img.shields.io/badge/npm-has--content-C23039?style=flat-square&logo=npm" alt="has-content on npm"/></a>
 ```bash
 npm install --save has-content@^1.1.0
 ```
-<a href='https://yarnpkg.com/package/has-content'><img alt='Yarn logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/yarn.png'/></a>
+<a href="https://yarnpkg.com/package/has-content"><img src="https://img.shields.io/badge/Yarn-has--content-2F8CB7?style=flat-square&logo=yarn&logoColor=white" alt="has-content on Yarn"/></a>
 ```bash
 yarn add has-content@^1.1.0
+```
+<a href="https://jsdelivr.com/package/npm/has-content/"><img src="https://img.shields.io/badge/jsDelivr-has--content-orange?style=flat-square&logo=html5&logoColor=white" alt="has-content on jsDelivr"/></a> <a href="https://unpkg.com/browse/has-content/"><img src="https://img.shields.io/badge/UNPKG-has--content-orange?style=flat-square&logo=html5&logoColor=white" alt="has-content on UNPKG"/></a>
+```html
+<script src="https://cdn.jsdelivr.net/npm/has-content@1.1.0/index.js"/>
 ```
 
 
 ## Try it out
-<img alt='Chromium logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/browser.png'/>
+
+
+
 Open a browser's JavaScript console and execute:
 
 ```javascript
 const scriptElement = document.createElement("script");
-scriptElement.setAttribute("type","text/javascript");
-scriptElement.setAttribute("src","https://unpkg.com/has-content@1.1.0");
+scriptElement.setAttribute("type", "text/javascript");
+scriptElement.setAttribute("src", "https://cdn.jsdelivr.net/npm/has-content@1.1.0/index.js");
 document.querySelector("head").appendChild(scriptElement);
 ```
 
-This module is now loaded in a variable that can be accessed in any scope.
+has-content is now stored in the global variable `hasContent`. The following console expression should return something other than `"undefined"`.
 
 ```javascript
 typeof hasContent.default
 ```
 
-## Documentation
 
-* [has-content](#module_has-content)
-    * [~isEmpty(value)](#module_has-content..isEmpty) ⇒ <code>boolean</code>
-    * [~default(value)](#module_has-content..default) ⇒ <code>boolean</code>
 
-Returns `false` if the given value is truthy or has any kind of content
 
-**Kind**: inner method of [<code>has-content</code>](#module_has-content)  
-**Returns**: <code>boolean</code> - `false` if `value` is truthy or has content, `true` otherwise  
 
-| Param | Type |
-| --- | --- |
-| value | <code>\*</code> | 
 
-**Example**  
-```javascript
-import {isEmpty} from "has-content"
-const result = hasContent(" ")
-result === true
+## Development
+
+
+
+Setting up:
+```bash
+git clone git@github.com:Jaid/has-content.git
+cd has-content
+npm install
 ```
-**Example**  
-```javascript
-import {isEmpty} from "has-content"
-const result = hasContent("a")
-result === false
+Testing:
+```bash
+npm run test:dev
 ```
-Returns `true` if the given value is truthy or has any kind of content
-
-**Kind**: inner method of [<code>has-content</code>](#module_has-content)  
-**Returns**: <code>boolean</code> - `true` if `value` is truthy or has content  
-
-| Param | Type |
-| --- | --- |
-| value | <code>\*</code> | 
-
-**Example**  
-```javascript
-import hasContent from "has-content"
-const result = hasContent(" ")
-result === false
-```
-**Example**  
-```javascript
-import hasContent from "has-content"
-const result = hasContent("a")
-result === true
+Testing in production environment:
+```bash
+npm run test
 ```
 
 
@@ -85,7 +84,7 @@ result === true
 ```text
 MIT License
 
-Copyright © 2019, Jaid <jaid.jsx@gmail.com> (github.com/jaid)
+Copyright © 2020, Jaid <jaid.jsx@gmail.com> (github.com/jaid)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
