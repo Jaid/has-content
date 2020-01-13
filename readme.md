@@ -1,9 +1,9 @@
 # has-content
 
 
-<a href="https://raw.githubusercontent.com/Jaid/has-content/master/license.txt"><img src="https://img.shields.io/github/license/Jaid/has-content?style=flat-square" alt="License"/></a>  
-<a href="https://actions-badge.atrox.dev/Jaid/has-content/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2FJaid%2Fhas-content%2Fbadge" alt="Build status"/></a> <a href="https://github.com/Jaid/has-content/commits"><img src="https://img.shields.io/github/commits-since/Jaid/has-content/v1.1.0?style=flat-square&logo=github" alt="Commits since v1.1.0"/></a> <a href="https://github.com/Jaid/has-content/commits"><img src="https://img.shields.io/github/last-commit/Jaid/has-content?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/Jaid/has-content/issues"><img src="https://img.shields.io/github/issues/Jaid/has-content?style=flat-square&logo=github" alt="Issues"/></a>  
-<a href="https://npmjs.com/package/has-content"><img src="https://img.shields.io/npm/v/has-content?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/Jaid/has-content/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/has-content?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/has-content"><img src="https://img.shields.io/npm/dm/has-content?style=flat-square&logo=npm" alt="Downloads"/></a>
+<a href="https://raw.githubusercontent.com/jaid/has-content/master/license.txt"><img src="https://img.shields.io/github/license/jaid/has-content?style=flat-square" alt="License"/></a> <a href="https://github.com/sponsors/jaid"><img src="https://img.shields.io/badge/<3-Sponsor-FF45F1?style=flat-square" alt="Sponsor has-content"/></a>
+<a href="https://actions-badge.atrox.dev/jaid/has-content/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2Fjaid%2Fhas-content%2Fbadge" alt="Build status"/></a> <a href="https://github.com/jaid/has-content/commits"><img src="https://img.shields.io/github/commits-since/jaid/has-content/v1.1.0?style=flat-square&logo=github" alt="Commits since v1.1.0"/></a> <a href="https://github.com/jaid/has-content/commits"><img src="https://img.shields.io/github/last-commit/jaid/has-content?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/jaid/has-content/issues"><img src="https://img.shields.io/github/issues/jaid/has-content?style=flat-square&logo=github" alt="Issues"/></a>  
+<a href="https://npmjs.com/package/has-content"><img src="https://img.shields.io/npm/v/has-content?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/jaid/has-content/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/has-content?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/has-content"><img src="https://img.shields.io/npm/dm/has-content?style=flat-square&logo=npm" alt="Downloads"/></a>
 
 **Returns true if the given value has meaningful content.**
 
@@ -41,14 +41,13 @@ yarn add has-content@^1.1.0
 
 
 
-
 ## Development
 
 
 
 Setting up:
 ```bash
-git clone git@github.com:Jaid/has-content.git
+git clone git@github.com:jaid/has-content.git
 cd has-content
 npm install
 ```
