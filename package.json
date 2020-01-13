@@ -33,5 +33,9 @@
   },
   "name": "has-content",
   "description": "Returns true if the given value has meaningful content.",
-  "funding": "https://github.com/sponsors/jaid"
+  "funding": "https://github.com/sponsors/jaid",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaid/has-content"
+  }
 }
