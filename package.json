@@ -32,5 +32,6 @@
     "prepareActionJest": "npm run build:prod"
   },
   "name": "has-content",
-  "description": "Returns true if the given value has meaningful content."
+  "description": "Returns true if the given value has meaningful content.",
+  "funding": "https://github.com/sponsors/jaid"
 }
