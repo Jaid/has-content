@@ -37,5 +37,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jaid/has-content"
-  }
+  },
+  "homepage": "https://github.com/Jaid/has-content",
+  "keywords": []
 }
