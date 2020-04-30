@@ -38,5 +38,14 @@
     "url": "https://github.com/jaid/has-content"
   },
   "homepage": "https://github.com/Jaid/has-content",
-  "keywords": []
+  "keywords": [
+    "has-content",
+    "is-empty",
+    "lib",
+    "library",
+    "util",
+    "utility",
+    "validate",
+    "validation"
+  ]
 }
