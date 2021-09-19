@@ -47,5 +47,6 @@
     "utility",
     "validate",
     "validation"
-  ]
+  ],
+  "type": "module"
 }
