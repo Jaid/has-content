@@ -1,6 +1,6 @@
 /** @module has-content */
 
-import {isBoolean, isFunction, isNil, isNumber, isObject, isString} from "lodash"
+import {isBoolean, isFunction, isNil, isNumber, isObject, isString} from "lodash-es"
 
 const hasContent = value => {
   if (value |> isNil) {
